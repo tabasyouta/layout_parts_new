@@ -2,4 +2,290 @@
 
 /* 回答はここに書いてね */
 
+.common-btn{
+  background-color: #00bcd4;
+  color: #fff;
+  display: inline-block;
+}
+
+.error-btn{
+  background-color: #ff4081;
+  color: #fff;
+  display: inline-block;
+}
+
+.disabled-btn{
+  background-color: #e5e5e5;
+  color: #fff;
+  display: inline-block;
+}
+
+.shadow-btn{
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
+  color: #222;
+  display: inline-block;
+}
+
+.s-A{
+  border-radius: 3px;
+  font-size: 16px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  padding: 0 15px;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+.m-A{
+  border-radius: 5px;
+  font-size: 20px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  padding: 0 20px;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+.l-A{
+  border-radius: 7px;
+  font-size: 24px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  padding: 0 25px;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+.A8{
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.header{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.header-text{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ecf1f2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.left-contents{
+  float: left;
+  width: 300px;
+}
+
+.left-item{
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+li{
+margin-top: 20px;
+}
+
+li:first-child{
+  margin-top: 0;
+}
+
+.item-title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.asterisk{
+  color: #f00;
+}
+
+.item-init{
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.item-title-content{
+  float: right;
+  width: 180px;
+}
+
+.item-input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.radio{
+  cursor: pointer;
+}
+
+.radio-btn{
+  display: none;
+}
+
+.radio-text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio-text::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+
+.radio-btn:checked + .radio-text::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: "";
+}
+
+.item-select{
+  position: relative;
+}
+
+.item-select::after{
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.item-from{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.checkbox{
+  text-align: right;
+}
+
+.checkbox-btn{
+  display: none;
+}
+
+.checkbox-text{
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.checkbox-text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -9px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+}
+
+.checkbox-btn:checked + .checkbox-text::after{
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00bcd4;
+  border-bottom: 3px solid #00bcd4;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.send{
+  text-align: right;
+}
+
+.send-btn{
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.right-contents{
+  float: right;
+  width: 380px;
+}
+
+.right-item{
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
 /* 回答はここに書いてね */

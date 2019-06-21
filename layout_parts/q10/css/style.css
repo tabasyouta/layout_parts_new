@@ -2,4 +2,33 @@
 
 /* 回答はここに書いてね */
 
+.A10{
+  width: 500px;
+  position:relative;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
+
+.A10::after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-right: 5px solid #222;
+  border-bottom: 5px solid #222;
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.text{
+  font-size: 16px;
+  line-height: 16px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */

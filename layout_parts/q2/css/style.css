@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.container{
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
+/*  疑問点 containerのwidthがbox-sizingで出力しないと980pxになってしまう  */
+/* 文字のサイズを合わせると文字が途中で改行されてしまう */
+
+.container p{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.image_balloon{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.image_kamon{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 /* 回答はここに書いてね */

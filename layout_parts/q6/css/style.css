@@ -1,5 +1,82 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.A1-1-container{
+  text-align: center;
+}
 
-/* 回答はここに書いてね */
+.A1-1-text{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 90px;
+  background-color: #e6f2ff;
+}
+
+.A1-2-container{
+}
+
+.A1-2-text{
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #e6f2ff;
+  box-sizing: border-box;
+}
+
+.A2-1-parent{
+  display: table;
+}
+
+.A2-1-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.A2-1-text{
+  padding: 10px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.A2-2-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.A2-2-inner{
+  padding: 10px;
+  background-color: #fff;
+}
+
+.A3-1-parent{
+  position: relative;
+}
+
+.A3-1-inner{
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.A3-2-parent{
+  position: relative;
+}
+
+.A3-2-inner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+/*
