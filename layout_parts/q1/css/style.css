@@ -4,6 +4,8 @@
 .container{
   width: 940px;
   background-color: #eff3f4;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .clearfix:after{
@@ -13,22 +15,22 @@
 }
 
 .container_box{
-  width: 270px;
-  margin: 20px 0 20px 20px;
+  width: 230px;
+  margin-left: 20px;
   background-color: #3274ae;
   padding: 20px;
   float: left;
-  box-sizing: border-box;
+}
+
+.container .container_box:first-child{
+  margin-left: 0;
 }
 
 .container_contents{
-  width: 230px;
   background-color: #eaf4ff;
   font-size: 16px;
   border: solid 10px #022336;
   padding: 20px;
   line-height: 16px;
-  float: left;
-  box-sizing: border-box;
 }
 /* 回答はここに書いてね */

@@ -7,13 +7,9 @@
 
 .A1-1-text{
   display: inline-block;
-  box-sizing: border-box;
   padding: 10px;
   width: 90px;
   background-color: #e6f2ff;
-}
-
-.A1-2-container{
 }
 
 .A1-2-text{

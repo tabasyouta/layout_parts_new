@@ -11,51 +11,25 @@
 .container td{
   padding: 10px;
   border: solid 1px #dedede;
-}
-
-.index{
-  color: #fff;
-  background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
 }
 
-.day1 :first-child{
+.container th{
   color: #fff;
   background-color: #2244aa;
+  padding: 10px;
   font-size: 18px;
   line-height: 26px;
+  border: solid 1px #dedede;
 }
 
-.day2 :first-child{
+.container tr:first-child{
   color: #fff;
   background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
 }
 
-.day3 :first-child{
-  color: #fff;
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.day4 :first-child{
-  color: #fff;
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.total :first-child{
-  color: #fff;
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.total{
+.container tr:last-child{
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */

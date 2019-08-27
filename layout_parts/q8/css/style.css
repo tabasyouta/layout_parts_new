@@ -151,6 +151,10 @@ li:first-child{
   box-sizing: border-box;
 }
 
+.item-input:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+
 .radio{
   cursor: pointer;
 }
@@ -272,6 +276,11 @@ li:first-child{
   line-height: 26px;
 }
 
+.send-btn:active{
+  background-color: #fff;
+  color: #00BCD4;
+}
+
 .right-contents{
   float: right;
   width: 380px;
@@ -288,4 +297,7 @@ li:first-child{
   resize: none;
 }
 
+.right-item:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
 /* 回答はここに書いてね */
