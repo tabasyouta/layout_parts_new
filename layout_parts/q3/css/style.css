@@ -24,12 +24,11 @@
   border: solid 1px #dedede;
 }
 
-.container tr:first-child{
-  color: #fff;
-  background-color: #2244aa;
-}
-
 .container tr:last-child{
   border-top: dashed 2px #000;
+}
+
+.container tr:nth-child(2n){
+  background-color: #fff;
 }
 /* 回答はここに書いてね */

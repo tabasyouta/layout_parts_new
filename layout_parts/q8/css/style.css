@@ -5,28 +5,24 @@
 .common-btn{
   background-color: #00bcd4;
   color: #fff;
-  display: inline-block;
 }
 
 .error-btn{
   background-color: #ff4081;
   color: #fff;
-  display: inline-block;
 }
 
 .disabled-btn{
   background-color: #e5e5e5;
   color: #fff;
-  display: inline-block;
 }
 
 .shadow-btn{
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
   color: #222;
-  display: inline-block;
 }
 
-.s-A{
+.s-a{
   border-radius: 3px;
   font-size: 16px;
   height: 26px;
@@ -35,9 +31,14 @@
   padding: 0 15px;
   margin: 0 5px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
-.m-A{
+.s-a:hover{
+  cursor: pointer;
+}
+
+.m-a{
   border-radius: 5px;
   font-size: 20px;
   height: 32px;
@@ -46,9 +47,14 @@
   padding: 0 20px;
   margin: 0 5px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
-.l-A{
+.m-a:hover{
+  cursor: pointer;
+}
+
+.l-a{
   border-radius: 7px;
   font-size: 24px;
   height: 38px;
@@ -57,9 +63,14 @@
   padding: 0 25px;
   margin: 0 5px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
-.A8{
+.l-a:hover{
+  cursor: pointer;
+}
+
+.a8{
   width: 700px;
   margin: 0 auto;
   padding: 20px;
@@ -106,11 +117,11 @@
   list-style: none;
 }
 
-li{
-margin-top: 20px;
+.left-item li{
+  margin-top: 20px;
 }
 
-li:first-child{
+.left-item li:first-child{
   margin-top: 0;
 }
 

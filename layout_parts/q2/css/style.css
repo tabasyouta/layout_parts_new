@@ -18,13 +18,13 @@
   word-break: break-all;
 }
 
-.image_balloon{
+.image_left{
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.image_lamp{
+.image_right{
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

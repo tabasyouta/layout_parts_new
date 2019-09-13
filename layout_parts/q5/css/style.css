@@ -9,20 +9,20 @@
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  font-weight: bold;
+  text-align: center;
 }
 
-.N0{
+.n0{
   font-size: 30px;
-  text-align: center;
-  padding: 30px;
   box-sizing: border-box;
   width: 100px;
   height: 100px;
+  line-height: 100px;
+  font-weight: bold;
   position: absolute;
 }
 
-.N1{
+.n1{
 background-color: #ffefd3;
 top: 40px;
 left: 200px;
@@ -30,52 +30,52 @@ left: 200px;
 }
 
 
-.N2{
+.n2{
   background-color: #7084de;
   top: 120px;
   right: 120px;
   z-index: 2;
 }
 
-.N3{
+.n3{
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
   z-index: 3;
 }
 
-.N4{
+.n4{
   background-color: #8b7a5e;
   bottom: 120px;
   right: 120px;
   z-index: 4;
 }
-.N5{
+.n5{
   background-color: #9fd6d2;
   bottom: 40px;
   left: 200px;
   z-index: 5;
 }
-.N6{
+.n6{
   background-color: #fffee4;
   bottom: 120px;
   left: 120px;
   z-index: 6;
 }
-.N7{
+.n7{
   background-color: #deae70;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
-.N8{
+.n8{
   background-color: #de70cf;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
 
-.N1::after{
+.n1::after{
   content: "";
   background-color: #ffefd3;
   width: 20px;
@@ -86,10 +86,8 @@ left: 200px;
   z-index: 9;
 }
 
-.N9{
+.n9{
   background-color: #2b69a3;
-  width: 100px;
-  height: 100px;
   position: fixed;
   top: 10px;
   left: 10px;
