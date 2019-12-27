@@ -32,11 +32,9 @@
   margin: 0 5px;
   box-sizing: border-box;
   display: inline-block;
-}
-
-.s-a:hover{
   cursor: pointer;
 }
+
 
 .m-a{
   border-radius: 5px;
@@ -48,9 +46,6 @@
   margin: 0 5px;
   box-sizing: border-box;
   display: inline-block;
-}
-
-.m-a:hover{
   cursor: pointer;
 }
 
@@ -64,9 +59,6 @@
   margin: 0 5px;
   box-sizing: border-box;
   display: inline-block;
-}
-
-.l-a:hover{
   cursor: pointer;
 }
 

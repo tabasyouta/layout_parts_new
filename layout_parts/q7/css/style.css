@@ -7,7 +7,7 @@
   clear: both;
 }
 
-.A1-box{
+.a1-box{
   width: 225px;
   font-size: 16px;
   float: left;
@@ -15,39 +15,39 @@
   margin-left: 50px;
 }
 
-.A1-box:first-child{
+.a1-box:first-child{
   margin-left: 0px;
 }
 
-.A2-container{
+.a2-container{
   display: table;
 }
 
-.A2-box{
+.a2-box{
   display: table-cell;
   font-size: 16px;
   vertical-align: middle;
 }
 
-.A2-box:last-child{
+.a2-box:last-child{
   padding-left: 50px;
 }
 
-.A2-left-text{
+.a2-left-text{
   box-sizing: border-box;
   width: 225px;
 }
 
-.A2-right-text{
+.a2-right-text{
   box-sizing: border-box;
   width: 225px;
 }
 
-.A3-parent{
+.a3-parent{
   font-size: 0;
 }
 
-.A3-inner{
+.a3-inner{
   display: inline-block;
   vertical-align: middle;
   width: 225px;
@@ -55,39 +55,39 @@
   box-sizing: border-box;
 }
 
-.A3-inner:last-child{
+.a3-inner:last-child{
   margin-left: 50px;
 }
 
-.A4-parent{
+.a4-parent{
   display: -webkit-flex;
   justify-content: space-around;
   align-items: flex-end;
   display: flex;
 }
 
-.A4-inner{
+.a4-inner{
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.A5-parent{
+.a5-parent{
   font-size: 0px;
 }
 
-.A5-left-box{
+.a5-left-box{
   vertical-align: top;
   display: inline-block;
 }
 
-.A5-left-text{
+.a5-left-text{
   font-size: 16px;
   width: 300px;
   box-sizing: border-box;
 }
 
-.A5-right-box{
+.a5-right-box{
   display: inline-block;
   margin-left: -300px;
   padding-left: 350px;
@@ -95,7 +95,7 @@
   box-sizing: border-box;
 }
 
-.A5-right-text{
+.a5-right-text{
   font-size: 16px;
 }
 /* 回答はここに書いてね */
